@@ -6,6 +6,16 @@
 
 Credit to [Kéké](https://twitter.com/Kekeflipnote) for the bouncing pigeon animation.
 
+## Installation
+
+A **userscript manager** is needed. Here is my recommend:
+
+-   Tampermonkey: [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/), [Chrome Web Store](https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo), [GitHub](https://github.com/Tampermonkey/tampermonkey), [Tampermonkey Homepage](https://www.tampermonkey.net/). You can also try some other userscript managers as you wish. You can find a lot information about userscript on [Greasy Fork's Homepage](https://greasyfork.org/).
+
+After the userscript manager installed, go to the [Pigeon to Twitter on greasyfork.org](https://greasyfork.org/scripts/471889-pigeon-to-twitter) page and click the press the big install button, folloew the step, and it will be installed easily.
+
+Open/Reload the Twitter, and enjoy the bouncing pigeon.
+
 ## Showcase
 
 ### Screenshot
@@ -19,16 +29,6 @@ Credit to [Kéké](https://twitter.com/Kekeflipnote) for the bouncing pigeon ani
 Video on YouTube: [Link](https://www.youtube.com/watch?v=on7PqWpgO8E)
 
 [![screenshot-youtube](./screenshot/screenshot-youtube.png)](http://www.youtube.com/watch?v=on7PqWpgO8E)
-
-## Installation
-
-A **userscript manager** is needed. Here is my recommend:
-
--   Tampermonkey: [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/), [Chrome Web Store](https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo), [GitHub](https://github.com/Tampermonkey/tampermonkey), [Tampermonkey Homepage](https://www.tampermonkey.net/). You can also try some other userscript managers as you wish. You can find a lot information about userscript on [Greasy Fork's Homepage](https://greasyfork.org/).
-
-After the userscript manager installed, go to the [Pigeon to Twitter on greasyfork.org](https://greasyfork.org/scripts/471889-pigeon-to-twitter) page and click the press the big install button, folloew the step, and it will be installed easily.
-
-Open/Reload the Twitter, and enjoy the bouncing pigeon.
 
 ## Disabling and Uninstallation (For people who have no experience on userscript)
 
