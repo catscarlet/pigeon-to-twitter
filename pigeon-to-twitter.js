@@ -23,12 +23,11 @@ const xLogoP = '[d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.81
 const i = setInterval(()=> {
     const head = document.head;
     if (head !== null) {
-        console.log('pigeon');
+        console.log('Pigeon to Twitter');
         document.head.querySelector('[rel="shortcut icon"]').href = getPigeonB64();
 
         pigeonLoadingAction();
         goObserve();
-        //head.appendChild(style);
 
         clearInterval(i);
     }
