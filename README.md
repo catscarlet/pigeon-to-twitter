@@ -12,13 +12,15 @@ A **userscript manager** is needed. Here is my recommend:
 
 -   Tampermonkey: [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/), [Chrome Web Store](https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo), [GitHub](https://github.com/Tampermonkey/tampermonkey), [Tampermonkey Homepage](https://www.tampermonkey.net/). You can also try some other userscript managers as you wish. You can find a lot information about userscript on [Greasy Fork's Homepage](https://greasyfork.org/).
 
-After the userscript manager installed, go to the [Pigeon to Twitter on greasyfork.org](https://greasyfork.org/scripts/471889-pigeon-to-twitter) page and click the press the big install button, folloew the step, and it will be installed easily.
+After the userscript manager installed, go to the **[\[Pigeon to Twitter on greasyfork.org\]](https://greasyfork.org/scripts/471889-pigeon-to-twitter)** page and click the press the big install button, folloew the step, and it will be installed easily.
 
 Open/Reload the Twitter, and enjoy the bouncing pigeon.
 
 ## Showcase
 
 ### Screenshot
+
+(Notice that these are static screenshots, so the pigeons don't move. Watch the video to see what it really is)
 
 ![screenshot-explore](./screenshot/screenshot-explore.png)
 
