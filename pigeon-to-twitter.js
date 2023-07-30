@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Pigeon to Twitter
 // @license      GNU AGPLv3
-// @description  "I don’t want X, I want pigeons always."
+// @description  "I don’t want X. I want pigeons always." Pigeon to Twitter is a userscript that can replace the ElonMusk's ugly X logo with a bouncing pigeon.
 // @namespace    https://github.com/catscarlet/pigeon-to-twitter
 // @version      0.0.1
 // @author       catscarlet
