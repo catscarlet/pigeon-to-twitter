@@ -1,15 +1,25 @@
 // ==UserScript==
-// @name         Pigeon to Twitter
-// @license      GNU AGPLv3
-// @description  "I don’t want X. I want pigeons always." Pigeon to Twitter is a userscript that can replace the ElonMusk's ugly X logo with a bouncing pigeon.
-// @namespace    https://github.com/catscarlet/pigeon-to-twitter
-// @version      0.0.1
-// @author       catscarlet
-// @match        https://twitter.com/*
-// @match        https://X.com/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=twitter.com
-// @grant        none
-// @run-at       document-start
+// @name                Pigeon to Twitter
+// @name:en             Pigeon to Twitter
+// @name:ja             Pigeon to Twitter
+// @name:zh-CN          Pigeon to Twitter
+// @name:zh-HK          Pigeon to Twitter
+// @name:zh-TW          Pigeon to Twitter
+// @description         "I don’t want X. I want pigeons always." Pigeon to Twitter is a userscript that can replace the ElonMusk's ugly X logo with a bouncing pigeon.
+// @description:en      "I don’t want X. I want pigeons always." Pigeon to Twitter is a userscript that can replace the ElonMusk's ugly X logo with a bouncing pigeon.
+// @description:ja      "I don’t want X. I want pigeons always." Pigeon to Twitter は、イーロン・マスクの醜い X ロゴを跳ねるハトに置き換えることができるユーザー スクリプトです。
+// @description:zh-CN   "I don’t want X. I want pigeons always." Pigeon to Twitter是一个用户脚本，可以用一只弹性的鸽子取代埃隆·马斯克丑陋的 X 标志。
+// @description:zh-HK   "I don’t want X. I want pigeons always." Pigeon to Twitter是一個用戶腳本，可以用一隻彈性的鴿子取代埃隆·馬斯克醜陋的 X 標誌。
+// @description:zh-TW   "I don’t want X. I want pigeons always." Pigeon to Twitter是一個用戶腳本，可以用一隻彈性的鴿子取代埃隆·馬斯克醜陋的 X 標誌。
+// @namespace           https://github.com/catscarlet/pigeon-to-twitter
+// @version             0.0.2
+// @author              catscarlet
+// @match               https://twitter.com/*
+// @match               https://X.com/*
+// @icon                https://www.google.com/s2/favicons?sz=64&domain=twitter.com
+// @grant               none
+// @run-at              document-start
+// @license             GNU AGPLv3
 // ==/UserScript==
 
 'use strict';
