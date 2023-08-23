@@ -12,7 +12,7 @@
 // @description:zh-HK   "I don’t want X. I want pigeons always." Pigeon to Twitter是一個用戶腳本，可以用一隻彈性的鴿子取代埃隆·馬斯克醜陋的 X 標誌。
 // @description:zh-TW   "I don’t want X. I want pigeons always." Pigeon to Twitter是一個用戶腳本，可以用一隻彈性的鴿子取代埃隆·馬斯克醜陋的 X 標誌。
 // @namespace           https://github.com/catscarlet/pigeon-to-twitter
-// @version             0.0.2
+// @version             0.0.3
 // @author              catscarlet
 // @match               https://twitter.com/*
 // @match               https://X.com/*
@@ -24,13 +24,11 @@
 
 'use strict';
 
-const PIGEON = new Image();
-PIGEON.src = getPigeonB64();
 let count = 0; //For Debuging.
 
 const xLogoP = '[d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"]';
 
-const i = setInterval(()=> {
+const i = setInterval(() => {
     const head = document.head;
     if (head !== null) {
         console.log('Pigeon to Twitter');
@@ -65,17 +63,22 @@ function goObserve() {
 function pigeonLogoAction(observer) {
     console.log('pigeon pigeonLogoAction');
 
-    const pigeonLogo = PIGEON;
-    pigeonLogo.style.maxHeight = '50px';
-    pigeonLogo.style.maxWidth = '50px';
 
     const thefuckingx = document.querySelectorAll(xLogoP);
 
     if (thefuckingx.length == 0) {
         console.log('pigeonLogoAction: no x is found right now');
     } else {
-        console.log('pigeonLogoAction：some "x"s are changed to pigeon');
+        console.log('pigeonLogoAction：changing "x logo" to pigeon');
         thefuckingx.forEach((item, i) => {
+            if (count >= 1) {
+                return;
+            }
+
+            const pigeonLogo = new Image();
+            pigeonLogo.src = getPigeonB64();
+            pigeonLogo.style.maxHeight = '50px';
+            pigeonLogo.style.maxWidth = '50px';
             item.parentElement.parentElement.replaceWith(pigeonLogo);
             console.log('pigeonLogoAction: one "x" is changed to pigeon');
 
@@ -90,7 +93,8 @@ function pigeonLogoAction(observer) {
 function pigeonLoadingAction() {
     console.log('pigeonloading action');
 
-    const pigeonLoading = PIGEON;
+    const pigeonLoading = new Image();
+    pigeonLoading.src = getPigeonB64();
     pigeonLoading.style.position = 'absolute';
     pigeonLoading.style.transform = 'translate(-50%, -50%)';
     pigeonLoading.style.top = '50%';
