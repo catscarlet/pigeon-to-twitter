@@ -1,5 +1,13 @@
 # Pigeon to Twitter
 
+## Notice
+
+**Somehow, changing icons will break x-client-transaction-id header and break most of requests.**
+
+I'm tired of these Musk Bull Shit. This repository is Archived. You can still try <https://github.com/yakisova41/xToTwitter> .
+
+## Introdution
+
 "I don’t want X, I want pigeons always."
 
 **Pigeon to Twitter** is a userscript that can replace the ElonMusk's ugly X logo with a bouncing pigeon.

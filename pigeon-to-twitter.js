@@ -12,7 +12,7 @@
 // @description:zh-HK   "I don’t want X. I want pigeons always." Pigeon to Twitter是一個用戶腳本，可以用一隻彈性的鴿子取代埃隆·馬斯克醜陋的 X 標誌。
 // @description:zh-TW   "I don’t want X. I want pigeons always." Pigeon to Twitter是一個用戶腳本，可以用一隻彈性的鴿子取代埃隆·馬斯克醜陋的 X 標誌。
 // @namespace           https://github.com/catscarlet/pigeon-to-twitter
-// @version             0.0.3
+// @version             0.0.4
 // @author              catscarlet
 // @match               https://twitter.com/*
 // @match               https://X.com/*
@@ -63,13 +63,12 @@ function goObserve() {
 function pigeonLogoAction(observer) {
     console.log('pigeon pigeonLogoAction');
 
-
     const thefuckingx = document.querySelectorAll(xLogoP);
 
     if (thefuckingx.length == 0) {
         console.log('pigeonLogoAction: no x is found right now');
     } else {
-        console.log('pigeonLogoAction：changing "x logo" to pigeon');
+        console.log('pigeonLogoAction：changing some "x"s to pigeon');
         thefuckingx.forEach((item, i) => {
             if (count >= 1) {
                 return;
@@ -84,6 +83,8 @@ function pigeonLogoAction(observer) {
 
             count++;
             observer.disconnect(); // Stop observe because for now there is only one X logo in the page. Also oberver may cause performance issue.
+            const pigeonLoading = document.querySelector('.pigeonLoading');
+            pigeonLoading.style.display = 'none';
         });
     }
 
@@ -99,6 +100,7 @@ function pigeonLoadingAction() {
     pigeonLoading.style.transform = 'translate(-50%, -50%)';
     pigeonLoading.style.top = '50%';
     pigeonLoading.style.left = '50%';
+    pigeonLoading.classList.add('pigeonLoading');
 
     const thefuckingx = document.querySelectorAll(xLogoP);
 
